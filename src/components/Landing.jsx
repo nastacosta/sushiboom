@@ -2,7 +2,7 @@ import React from "react";
 
 function Landing() {
   return (
-    <section className="ratona bg-stone-900 w-full h-[100vh] flex justify-center items-center text-white">
+    <section className="mb-[10vh] bg-stone-900 w-full h-[100vh] flex justify-center items-center text-white">
       <div className="container text-center px-32 z-10">
         <h2 className="font-bold text-[4rem] leading-tight px-4">
           Sushi Boom - It’s not just food, it's a sushi experience!
@@ -28,6 +28,7 @@ function Landing() {
       ></iframe>
 
       <div className="absolute landing-gradient h-full w-full"></div>
+      <div className="absolute bg-background h-[10vh] w-full z-40 top-[100vh]"></div>
     </section>
   );
 }

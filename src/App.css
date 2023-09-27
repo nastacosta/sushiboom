@@ -1,3 +1,7 @@
+:root {
+  --background: #0c0c0b;
+}
+
 * {
   font-family: Poppins;
 }
@@ -6,12 +10,16 @@ html {
   overflow-x: hidden;
 }
 
+iframe::-webkit-scrollbar {
+  display: none;
+}
+
 .container {
   max-width: 76rem;
 }
 
-iframe::-webkit-scrollbar {
-  display: none;
+.bg-background {
+  background-color: var(--background);
 }
 
 .landing-gradient {

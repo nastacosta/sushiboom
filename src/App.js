@@ -7,7 +7,6 @@ function App() {
     <div className="App">
       <Header />
       <Landing />
-      <div className="text-2xl bg-slate-200 z-40">hola</div>
     </div>
   );
 }
