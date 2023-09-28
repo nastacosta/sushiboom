@@ -3,7 +3,7 @@ import React from "react";
 function Landing() {
   return (
     <section className="mb-[10vh] bg-stone-900 w-full h-[100vh] flex justify-center items-center text-white">
-      <div className="container text-center px-32 z-10">
+      <div className="container text-center px-32 z-20">
         <h2 className="font-bold text-[4rem] leading-tight px-4">
           Sushi Boom - It’s not just food, it's a sushi experience!
         </h2>
@@ -24,11 +24,11 @@ function Landing() {
         src="https://www.youtube.com/embed/j4EaBb2r8nk?autoplay=1&amp;loop=1&amp;enablejsapi=1&amp;playerapiid=featuredytplayer&amp;controls=0&amp;modestbranding=1&amp;rel=0&amp;showinfo=0&amp;color=white&amp;iv_load_policy=3&amp;theme=light&amp;wmode=transparent&amp;origin=https://sushiboom.co.uk&amp;playlist=j4EaBb2r8nk&amp;mute=1"
         allow="fullscreen"
         title="Sushi Boom London website video"
-        className="h-[112vh] w-screen absolute pointer-events-none"
+        className="h-[112vh] w-screen absolute pointer-events-none select-none"
       ></iframe>
 
       <div className="absolute landing-gradient h-full w-full"></div>
-      <div className="absolute bg-background h-[10vh] w-full z-40 top-[100vh]"></div>
+      <div className="absolute bg-background h-[10vh] w-full z-10 top-[100vh]"></div>
     </section>
   );
 }

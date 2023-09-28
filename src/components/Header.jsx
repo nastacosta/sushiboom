@@ -2,7 +2,7 @@ import React from "react";
 
 function Header() {
   return (
-    <header className=" h-[110px] w-screen fixed flex gap-5 justify-center items-center text-white z-10">
+    <header className=" h-[110px] w-screen fixed flex gap-5 justify-center items-center text-white z-30">
       <img className="h-[100%] py-4" src="/img/SB-Logo-F.png" alt="logo" />
       <nav className="flex gap-8 px-3 items-center text-lg">
         <button>Home</button>

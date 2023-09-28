@@ -1,5 +1,6 @@
 :root {
   --background: #0c0c0b;
+  --background-grey: #181b1b;
 }
 
 * {
@@ -20,6 +21,10 @@ iframe::-webkit-scrollbar {
 
 .bg-background {
   background-color: var(--background);
+}
+
+.bg-background-grey {
+  background-color: var(--background-grey);
 }
 
 .landing-gradient {
