@@ -13,7 +13,7 @@ function Item({ children, img }) {
         className="absolute w-full h-full object-cover blur-[0.5px] transition-all ease-linear duration-200 group-hover:scale-105"
         src={img}
       />
-      <span className="absolute w-full h-full bg-white"></span>
+      <span className="absolute w-full h-full bg-transparent opacity-70"></span>
     </article>
   );
 }
@@ -21,10 +21,10 @@ function Item({ children, img }) {
 function Bestsellers() {
   return (
     <>
-      <h3 className="font-bold text-white text-[3.2rem] mt-24 mb-16">
+      <h3 className="font-bold text-white text-[3.2rem] mt-24 mb-14">
         Our Bestsellers
       </h3>
-      <section className="container px-7 grid grid-cols-3 gap-9">
+      <section className="container px-7 grid grid-cols-3 gap-9 mb-16">
         <Item img="/img/bestseller-1.jpg">Eel Maki</Item>
         <Item img="/img/bestseller-2.jpg">
           Double Unagi With Sriracha Edamame
@@ -34,6 +34,12 @@ function Bestsellers() {
         <Item img="/img/bestseller-5.jpg">Salmon Sushi Set</Item>
         <Item img="/img/bestseller-6.jpg">Unagi Rolls</Item>
       </section>
+      <p className="container px-32 text-lg text-center text-neutral-500">
+        *Minimum order is £25. **For every £25 ordered we add one condiment kit
+        and two pairs of chopsticks. If you do not want these, please just let
+        us know. If you’d like extras, they can be ordered below be added at the
+        checkout.
+      </p>
     </>
   );
 }

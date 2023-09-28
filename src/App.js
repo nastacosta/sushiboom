@@ -3,6 +3,7 @@ import Bestsellers from "./components/Bestsellers";
 import Header from "./components/Header";
 import InfoSB from "./components/InfoSB";
 import Landing from "./components/Landing";
+import Reviews from "./components/Reviews";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Landing />
       <InfoSB />
       <Bestsellers />
+      <Reviews />
     </div>
   );
 }

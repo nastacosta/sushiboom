@@ -37,7 +37,9 @@ iframe::-webkit-scrollbar {
 }
 
 .bestseller-item span {
-  background-color: transparent;
-  background-image: -webkit-linear-gradient(top, transparent, rgb(12, 12, 12));
-  opacity: 0.7;
+  background-image: -webkit-linear-gradient(
+    top,
+    transparent,
+    rgba(0, 0, 0, 0.761)
+  );
 }
