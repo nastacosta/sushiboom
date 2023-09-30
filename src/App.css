@@ -43,3 +43,20 @@ iframe::-webkit-scrollbar {
     rgba(0, 0, 0, 0.761)
   );
 }
+
+.contact-frame {
+  background-image: url("/public/img/background-2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-frame .gradient {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgb(15, 14, 14) 5%,
+    rgb(15, 14, 14, 0.6) 50%,
+    rgb(15, 14, 14) 95%
+  );
+}

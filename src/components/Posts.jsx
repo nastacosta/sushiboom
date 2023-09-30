@@ -20,7 +20,7 @@ function Posts() {
       <h3 className="font-bold text-white text-[2.5rem] mt-36 mb-16">
         @SUSHI_BOOM_LONDON
       </h3>
-      <section className="container px-7 grid grid-cols-4 gap-5 mb-16">
+      <section className="container px-7 grid grid-cols-4 gap-5 mb-40">
         <Post img="/img/post-1.jpg">
           @sushi_boom_london: Are you tired of paying lots of £££ and getting
           dry, small, flavourless sushi? 😓 😏 Then you must try ...
