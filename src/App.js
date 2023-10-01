@@ -1,6 +1,7 @@
 import "./App.css";
 import Bestsellers from "./components/Bestsellers";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import InfoSB from "./components/InfoSB";
 import Landing from "./components/Landing";
@@ -17,6 +18,7 @@ function App() {
       <Reviews />
       <Posts />
       <Contact />
+      <Footer />
     </div>
   );
 }
