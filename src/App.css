@@ -60,3 +60,9 @@ iframe::-webkit-scrollbar {
     rgb(15, 14, 14) 95%
   );
 }
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 40rem;
+  }
+}
